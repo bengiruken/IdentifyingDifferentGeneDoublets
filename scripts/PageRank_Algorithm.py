@@ -1,5 +1,3 @@
-Certainly! Below is the script with added comments explaining each function and their arguments.
-
 ```python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
