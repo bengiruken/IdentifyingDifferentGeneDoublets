@@ -166,7 +166,7 @@ def save_og_tsg_info(df_og_tsg, subnetwork, og_tsg_filename):
 
 def main():
     """
-    Main function to orchestrate the workflow.
+    Main function.
     """
     df_ppi, df_double_comps, df_uniprot, df_uni, df_trrust, df_double_couples, df_og_tsg = load_data()
     Uniprot_Gene = create_uniprot_gene_dict(df_uni)
