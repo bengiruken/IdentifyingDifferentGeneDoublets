@@ -123,7 +123,7 @@ def prepare_plotting_environment():
     """
     Prepares the plotting environment with specific font and SVG settings.
 
-    No parameters or returns, modifies global matplotlib settings.
+    
     """
     mpl.use('svg')
     new_rc_params = {
@@ -152,8 +152,7 @@ def main():
     # Prepare plotting environment
     prepare_plotting_environment()
     
-    # Further processing and plotting code...
-    # Add your remaining code here for processing and plotting based on loaded data.
+
 
 
 if __name__ == "__main__":
